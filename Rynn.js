@@ -313,6 +313,7 @@ var runActionOnTweet = function(service, database, tweet, loops) {
 		} else {
 			// the function was successful, log the action to the database
 			new models.Action({
+				service: service.service,
 				tweet_id: tweet.id_str,
 				screen_name: tweet.user.screen_name,
 				text: tweet.text
