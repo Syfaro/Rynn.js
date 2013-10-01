@@ -1,0 +1,13 @@
+{
+  "name": "rynnjs",
+  "version": "0.0.1",
+  "description": "Performs actions on Tweets that match criteria",
+  "author": "Syfaro Warraw",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "async": "~0.2.9",
+    "twit": "~1.1.9",
+    "persist": "~0.2.7",
+    "sqlite3": "~2.1.17"
+  }
+}
